@@ -130,6 +130,7 @@ h3 {
 .bottom-container {
   background-color: #dadada;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 .spaces {
