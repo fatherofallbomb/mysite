@@ -5,17 +5,31 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  font-size: 90px
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2
+
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .top-container {
@@ -42,56 +56,129 @@ h3 {
 }
 
 .dp {
-  margin-top: 25px;
-  height: 120px;
-  width: 120px;
+  margin: 50px auto 20px auto;
+  height: 200px;
+  width: 200px;
   border-radius: 50%
 }
 
+.divide {
+  color: #63aabc;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 5px;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
 .skillsicon {
-  margin-bottom: 25px;
-  height: 250px;
-  width: 250px
+  width: 25%;
+  float: left;
+  margin-right: 30px
 }
 
 .public {
-  margin-top: 25px;
-  height: 250px;
-  width: 250px
+  width: 25%;
+  float: right;
+  margin-left: 30px
 }
 
 .ideas{
-  margin-top: 25px;
-  height: 250px;
-  width: 250px
+  width: 25%;
+  float: left;
+  margin-right: 30px
 }
 
 .biz {
-  margin-top: 25px;
-  height: 250px;
-  width: 250px
+  width: 25%;
+  float: right;
+  margin-left: 30px
 }
 
 .product {
-  margin-top: 25px;
-  height: 250px;
-  width: 250px
+  width: 25%;
+  float: left;
+  margin-right: 30px
 }
 
 .puppy {
-  margin-top: 25px;
-  height: 250px;
-  width: 250px
+/*  margin-top: 25px;
+  height: 250px; */
+  width: 25%;
+  float: right;
+  margin-left: 30px
 }
 
+/*
 .cake {
   margin-top: 25px;
   height: 250px;
   width: 250px;
   border-radius: 50px
 }
+*/
+
+.cake {
+  width: 25%;
+  float: left;
+  margin-right: 30px
+}
 
 
 .bottom-container {
-  background-color: #dadada
+  background-color: #dadada;
+  margin: auto;
+}
+
+.spaces {
+  margin-top: 30px;
+}
+
+.footer-link {
+  color: #11999E
+}
+
+.pcolor {
+  color: #2d3561;
+  margin-bottom: 0;
+}
+
+.btn {
+  /*background-color: #ab72c0;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25%;
+  border: 2px solid;
+  margin: 50px auto 100px auto; */
+  background-color: #66BFBF;
+  border-radius: 25px;
+  color: white;
+  border: 2px solid #66BFBF;
+  padding: 20px;
+  text-align: center;
+  width: 130px;
+  height: 15px;
+  margin: 50px auto 100px auto;
+}
+
+.divide2 {
+  color: #63aabc;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 5px;
+  width: 5%;
+  margin: 130px auto 100px auto;
+}
+
+a {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
 }
